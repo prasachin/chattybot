@@ -1,0 +1,34 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+rasa-env/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Flask-specific
+instance/
+*.pyc
+
+# Rasa-specific files
+models/            
+results/          
+.rasa/             
+*.md               
+.nlu.json          
+# Environment/config files
+.env
+config.json
+
+# Cache and temporary files
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+coverage/
