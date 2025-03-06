@@ -10,7 +10,7 @@ CORS(app)  # Enable CORS for all routes
 # MySQL setup
 db_config = {
     'user': 'root',
-    'password': 'password',
+    'password': 'Ra62052Sa@',
     'host': 'localhost',
     'database': 'chattybot'
 }
