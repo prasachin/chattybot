@@ -16,6 +16,10 @@ nlu:
       - goodmorning
       - goodevening
       - good afternoon
+      - what's up
+      - how are you
+      - how's it going
+      - howdy
 
   - intent: goodbye
     examples: |
@@ -29,6 +33,9 @@ nlu:
       - see you around
       - bye bye
       - see you later
+      - take care
+      - catch you later
+      - talk to you soon
 
   - intent: affirm
     examples: |
@@ -38,6 +45,9 @@ nlu:
       - of course
       - that sounds good
       - correct
+      - sure
+      - absolutely
+      - definitely
 
   - intent: deny
     examples: |
@@ -48,6 +58,8 @@ nlu:
       - don't like that
       - no way
       - not really
+      - I disagree
+      - nope
 
   - intent: mood_great
     examples: |
@@ -65,6 +77,8 @@ nlu:
       - so so perfect
       - so good
       - so perfect
+      - fantastic
+      - feeling awesome
 
   - intent: mood_unhappy
     examples: |
@@ -79,9 +93,11 @@ nlu:
       - unhappy
       - not good
       - not very good
-      - extremly sad
+      - extremely sad
       - so saad
       - so sad
+      - not feeling great
+      - having a bad day
 
   - intent: bot_challenge
     examples: |
@@ -89,7 +105,10 @@ nlu:
       - are you a human?
       - am I talking to a bot?
       - am I talking to a human?
-
+      - are you real?
+      - do you have feelings?
+      - do you think for yourself?
+    
   - intent: ask_programming_languages
     examples: |
       - What programming languages do you know?
@@ -97,6 +116,9 @@ nlu:
       - What is Python?
       - What are the best programming languages for web development?
       - Can you list some programming languages?
+      - What programming languages are used for data science?
+      - What language should I learn for game development?
+      - What are the most popular programming languages?
 
   - intent: ask_web_development
     examples: |
@@ -105,3 +127,38 @@ nlu:
       - What is the difference between front-end and back-end?
       - How does React work?
       - What is the role of a web developer?
+      - What tools are used in web development?
+      - What is HTML?
+      - What is CSS?
+
+  - intent: ask_technology_news
+    examples: |
+      - What's new in technology?
+      - Tell me the latest tech trends.
+      - What are the newest gadgets?
+      - Any big tech announcements recently?
+
+  - intent: ask_jokes
+    examples: |
+      - Tell me a joke.
+      - Make me laugh.
+      - Give me a funny joke.
+      - I need a laugh.
+      - Tell me something funny.
+      - Do you know any jokes?
+
+  - intent: ask_weather
+    examples: |
+      - What's the weather like today?
+      - Will it rain tomorrow?
+      - How's the weather?
+      - Is it cold outside?
+      - What's the temperature?
+
+  - intent: ask_about_hobbies
+    examples: |
+      - What are some good hobbies?
+      - Tell me about your hobbies.
+      - What do you like to do for fun?
+      - What hobbies can I pick up?
+      - What is a fun hobby to do at home?

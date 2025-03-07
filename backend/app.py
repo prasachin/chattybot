@@ -5,7 +5,7 @@ import mysql.connector
 from datetime import datetime, timezone
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+CORS(app, resources={r"/*": {"origins": "*"}})  # Enable CORS for all routes
 
 # MySQL setup
 db_config = {

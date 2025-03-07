@@ -37,3 +37,23 @@ stories:
     steps:
       - intent: ask_web_development
       - action: utter_web_development
+
+  - story: ask about technology news
+    steps:
+      - intent: ask_technology_news
+      - action: utter_technology_news
+
+  - story: joke time
+    steps:
+      - intent: ask_jokes
+      - action: utter_jokes
+
+  - story: weather query
+    steps:
+      - intent: ask_weather
+      - action: utter_weather
+
+  - story: hobby suggestion
+    steps:
+      - intent: ask_about_hobbies
+      - action: utter_hobbies
